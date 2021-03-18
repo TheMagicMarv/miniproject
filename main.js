@@ -61,6 +61,10 @@ function outputData(person) {
     row.classList.add('Royalty');
   }
 
+  if ((new RegExp(/*/gi)).test(person.profession)) {
+    row.classList.add('uselessButton');
+  }
+
 }
 
 // The below function will get called when the window finishes loading our data
