@@ -57,6 +57,10 @@ function outputData(person) {
     row.classList.add('American');
   }
 
+  if ((new RegExp(/king|princ|roy|queen/gi)).test(person.profession)) {
+    row.classList.add('Royalty');
+  }
+
 }
 
 // The below function will get called when the window finishes loading our data
