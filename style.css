@@ -28,8 +28,12 @@ button {
   background-color: purple;
 }
 
+.magentaButton{
+  background-color: magenta;
+}
+
 table, th, td {
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 
 table {
